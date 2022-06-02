@@ -31,12 +31,12 @@ must extract patient data and go to an other system like STATA, R or Python to a
 To improve the patient automatic follow up, we need a system which will allow practitoner to follow one patient or many patients
 during the collect to detect aberration and take decision quickly. This is our question of reseach.
 
-#Aim
+# Aim
 Implement a user interface which will help physician to collect and visualize patient data by usin python GUI Tkinter
 
-#Method
+# Method
 
-#Expected results
+# Expected results
 
 
 ```python
