@@ -23,7 +23,7 @@ header-includes: |
             pdfcreator={Emacs, Pandoc, Latex, Markdown}}
     
 ---
-# Abstract
+# Abstracts
 # I. background and rationale
 In the hospital, healthcare pactitioner use a health information system to collect patient data like his identity,
 age, higth, weigth and biological informations about his diseases. To have a overview of those information, the statistician
