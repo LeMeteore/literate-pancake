@@ -1,6 +1,6 @@
 ---
 title: |
-  " Use of python Tkinter GUI to collect, Manage and Visualize data. "
+  Use of python Tkinter GUI to collect, Manage and Visualize data.
 date: May, 2022
 lang: en-EN
 urlcolor: blue
