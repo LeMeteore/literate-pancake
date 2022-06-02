@@ -36,8 +36,8 @@ during the collect to detect aberration and take decision quickly. This is our q
 Implement a user interface which will help physician to collect and visualize patient data by usin python GUI Tkinter
 
 ## II.2. Specifics aims
-II.2.1. Improve the ...
-II.2.2. Reduce the ..... 
+### II.2.1. Improve the ...
+### II.2.2. Reduce the ..... 
 # III. Methods and materials
 ## III.1. Methods
 ## III.2. Materials
@@ -55,5 +55,5 @@ def bar(x):
 # Conclusion
 
 # Bibliography
-[1]. 
-[2]. 
+* [1]. 
+* [2]. 
