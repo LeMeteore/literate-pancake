@@ -1,6 +1,6 @@
 ---
 title: |
-  "Introduction to Python modules."
+  "Use of python Tkinter GUI to collect, Manage and Visualize data."
 date: May, 2022
 lang: en-EN
 urlcolor: blue
