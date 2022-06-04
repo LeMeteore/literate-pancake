@@ -33,11 +33,11 @@ during the collect to detect aberration and take decision quickly. This is our q
 
 # II. Aims
 ## II.1. Main aim
-Implement a user interface which will help physician to collect and visualize patient data by usin python GUI Tkinter
+#### Implement a user interface which will help physician to collect and visualize patient data by usin python GUI Tkinter
 
 ## II.2. Specifics aims
-### II.2.1. Improve the the taking care of patient by allowing automatique analysing of patient data
-### II.2.2. Reduce the rate of aberration during patient data collection
+#### II.2.1. Improve the the taking care of patient by allowing automatique analysing of patient data
+#### II.2.2. Reduce the rate of aberration during patient data collection
 # III. Methods and materials
 ## III.1. Methods
 ## III.2. Materials
