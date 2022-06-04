@@ -36,8 +36,8 @@ during the collect to detect aberration and take decision quickly. This is our q
 Implement a user interface which will help physician to collect and visualize patient data by usin python GUI Tkinter
 
 ## II.2. Specifics aims
-### II.2.1. Improve the ...
-### II.2.2. Reduce the ..... 
+### II.2.1. Improve the the taking care of patient by allowing automatique analysing of patient data
+### II.2.2. Reduce the of aberration during patient data collection
 # III. Methods and materials
 ## III.1. Methods
 ## III.2. Materials
