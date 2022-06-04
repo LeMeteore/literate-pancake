@@ -37,19 +37,14 @@ Implement a user interface which will help physician to collect and visualize pa
 
 ## II.2. Specifics aims
 ### II.2.1. Improve the the taking care of patient by allowing automatique analysing of patient data
-### II.2.2. Reduce the of aberration during patient data collection
+### II.2.2. Reduce the rate of aberration during patient data collection
 # III. Methods and materials
 ## III.1. Methods
 ## III.2. Materials
 
 
 ```python
-# module foo.py
-
-a = 42
-
-def bar(x):
-    print(x)
+# Python Code section
 ```
 # IV. Results
 # Conclusion
