@@ -42,7 +42,7 @@ during the collect to detect aberration and take decision quickly. This is our q
 ## III.1. Methods
 The taking care of patients is made by interrogation of patient, physical exam and the proposition of treament.
 When the patient arrived to hospital at emercency room, the practitioners will 
-![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/Mémoire_EISIS_M2-Parcours patient.jpg?raw=true)
+![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/01.jpg?raw=true)
 
 ## III.2. Materials
 We use Unified Modeling Language (UML) for describing and design the process of patient taking care by physician in inpatient room.
