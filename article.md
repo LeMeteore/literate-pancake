@@ -50,6 +50,11 @@ Mysql will be used to store data which are collected by the system.
 
 ```python
 # Python Code section
+import tkinter as tk
+from pandas import DataFrame
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+
 ```
 # IV. Results
 # Conclusion
