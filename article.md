@@ -180,3 +180,11 @@ Dans cet article nous avions appris comment une expression régulière(RegEx). L
 | :----------------------------------: | :----------------------------------: |
 | sub | Remplace une ou plusieurs correspondances par une chaîne |
 
+
+|              Fonction             |             Description           |
+| :----------------------------------: | :----------------------------------: |
+| findall | Renvoie une liste contenant toutes les correspondances |
+| search | Renvoie un objet Match s'il y a une correspondance n'importe où dans la chaîne |
+| split | Renvoie une liste où la chaîne a été séparée à chaque correspondance |
+| sub | Remplace une ou plusieurs correspondances par une chaîne |
+
