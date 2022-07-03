@@ -62,6 +62,12 @@ x = re.search("^Le.*pays$", txt)
 Le module `re` offre un ensemble de fonctions qui nous permettent de rechercher une correspondance dans une chaîne :
 
 [Voir le tableau](https://www.notion.so/576512961ea041c8a411c92760d7c788)
+|              Fonction             |             Description           |
+| :----------------------------------: | :----------------------------------: |
+| findall | Renvoie une liste contenant toutes les correspondances |
+| search | Renvoie un objet Match s'il y a une correspondance n'importe où dans la chaîne |
+| split | Renvoie une liste où la chaîne a été séparée à chaque correspondance |
+| sub | Remplace une ou plusieurs correspondances par une chaîne |
 
 ---
 
@@ -167,24 +173,4 @@ print(x) #un objet sera trouvé
 # Conclusion
 
 Dans cet article nous avions appris comment une expression régulière(RegEx). Les RegEx nous permettent de vérifier les modèles dans les chaînes de texte. Vous pouvez maintenant définir vos propres critères de recherche pour un modèle adapté à vos besoins.
-
-
-
-|              Fonction             |             Description           |
-| :----------------------------------: | :----------------------------------: |
-| findall | Renvoie une liste contenant toutes les correspondances |
-| :----------------------------------: | :----------------------------------: |
-| search | Renvoie un objet Match s'il y a une correspondance n'importe où dans la chaîne |
-| :----------------------------------: | :----------------------------------: |
-| split | Renvoie une liste où la chaîne a été séparée à chaque correspondance |
-| :----------------------------------: | :----------------------------------: |
-| sub | Remplace une ou plusieurs correspondances par une chaîne |
-
-
-|              Fonction             |             Description           |
-| :----------------------------------: | :----------------------------------: |
-| findall | Renvoie une liste contenant toutes les correspondances |
-| search | Renvoie un objet Match s'il y a une correspondance n'importe où dans la chaîne |
-| split | Renvoie une liste où la chaîne a été séparée à chaque correspondance |
-| sub | Remplace une ou plusieurs correspondances par une chaîne |
 
