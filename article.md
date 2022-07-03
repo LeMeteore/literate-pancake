@@ -61,7 +61,7 @@ x = re.search("^Le.*pays$", txt)
 
 Le module `re` offre un ensemble de fonctions qui nous permettent de rechercher une correspondance dans une chaîne :
 
-[Untitled](https://www.notion.so/576512961ea041c8a411c92760d7c788)
+[Les fonctions RegEx](https://www.notion.so/576512961ea041c8a411c92760d7c788)
 
 ---
 
@@ -69,7 +69,7 @@ Le module `re` offre un ensemble de fonctions qui nous permettent de rechercher
 
 Les métacaractères sont des caractères ayant une signification particulière :
 
-[Untitled](https://www.notion.so/05d6464f3cbb4687a56f0273093b501f)
+[Les métacaractères](https://www.notion.so/05d6464f3cbb4687a56f0273093b501f)
 
 ---
 
@@ -77,7 +77,7 @@ Les métacaractères sont des caractères ayant une signification particulière�
 
 Une séquence spéciale est un `\` suivi de l'un des caractères de la liste ci-dessous et a une signification particulière :
 
-[Untitled](https://www.notion.so/d48308b39a1b47a49e726d5f859b413f)
+[Séquences spéciales](https://www.notion.so/d48308b39a1b47a49e726d5f859b413f)
 
 ---
 
@@ -85,7 +85,7 @@ Une séquence spéciale est un `\` suivi de l'un des caractères de la liste ci
 
 A set is a set of characters inside a pair of square brackets `[]` with a special meaning:
 
-[Untitled](https://www.notion.so/8eec1670291043aaa4d8627c01200156)
+[Les sets](https://www.notion.so/8eec1670291043aaa4d8627c01200156)
 
 ---
 
