@@ -78,19 +78,17 @@ Les métacaractères sont des caractères ayant une signification particulière�
 [Voir le tableau](https://www.notion.so/05d6464f3cbb4687a56f0273093b501f)
 |              Caractère             |             Description           |             Exemple           |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: |
-| [] | Un ensemble de caractères | "[a-z]" |
-[],Un ensemble de caractères, | ```[a-z]```
-| :----------------------------------: | :----------------------------------: | :----------------------------------: |
-\,Signale une séquence spéciale (peut également être utilisé pour échapper des caractères spéciaux),"""\y"""
-.,N'importe quel caractère (sauf le caractère de nouvelle ligne),"""bon..soir"""
-^,Commence par,"""^jour"""
-$,Se termine par,"""elle$"""
-*,Zéro ou plusieurs occurrences,"""bon.*soir"""
-+,Une ou plusieurs occurrences,"""bons.+soir"""
-?,Zéro ou une occurrence,"""bon.?soir"""
-{},Exactement le nombre d'occurrences spécifié,"""bon.{2}soir"""
-|,Soit ou,"""oui|non"""
-(),Obtenir et regrouper,
+| [] | Un ensemble de caractères, | ```[a-z]``` |
+| \ | Signale une séquence spéciale (peut également être utilisé pour échapper des caractères spéciaux) | ```\y``` |
+| . | N'importe quel caractère (sauf le caractère de nouvelle ligne) | ```bon..soir``` |
+| ^ | Commence par | ```^jour``` |
+| $ | Se termine par | ```elle$``` |
+| * | Zéro ou plusieurs occurrences | ```bon.*soir``` |
+| + | Une ou plusieurs occurrences | ```bons.+soir``` |
+| ? | Zéro ou une occurrence | ```bon.?soir``` |
+| {} | Exactement le nombre d'occurrences spécifié | ```bon.{2}soir``` |
+| | | Soit ou | ```oui|non``` |
+| () | Obtenir et regrouper |
 
 ---
 
