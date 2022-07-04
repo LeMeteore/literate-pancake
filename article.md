@@ -117,6 +117,16 @@ Un caractère spécial est un `\` suivi de l'un des caractères de la liste ci-
 A set is a set of characters inside a pair of square brackets `[]` with a special meaning:
 
 [Voir le tableau](https://www.notion.so/8eec1670291043aaa4d8627c01200156)
+| Set | Description|
+| :----------------------------------: | :----------------------------------: |
+[[mar]|Renvoie une correspondance dans laquelle l'un des caractères spécifiés (m, a, ou r) est présent.|
+|[m-r]|Renvoie une correspondance pour tout caractère minuscule, par ordre alphabétique entre m et r|
+[^mar]|Renvoie une correspondance pour n'importe quel caractère SAUF m, a et r|
+|[0123]|Renvoie une correspondance où l'un des chiffres spécifiés (0, 1, 2 ou 3) est présent|
+[0-9]|Renvoie une correspondance pour n'importe quel chiffre entre 0 et 9|
+|[0-5][0-9]|Renvoie une correspondance pour tous les nombres à deux chiffres entre 00 et 59|
+|[a-zA-Z]|Renvoie une correspondance pour tout caractère par ordre alphabétique entre a et z, minuscule OU majuscule|
+|[+]|renvoie une correspondance pour tout + de la chaîne|
 
 ---
 
