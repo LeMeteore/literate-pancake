@@ -76,6 +76,9 @@ Le module `re` offre un ensemble de fonctions qui nous permettent de rechercher
 Les métacaractères sont des caractères ayant une signification particulière :
 
 [Voir le tableau](https://www.notion.so/05d6464f3cbb4687a56f0273093b501f)
+|              Caractère             |             Description           |             Exemple           |
+| :----------------------------------: | :----------------------------------: | :----------------------------------: |
+| [] | Un ensemble de caractères | "[a-z]" |
 
 ---
 
