@@ -108,7 +108,7 @@ Un caractère spécial est un `\` suivi de l'un des caractères de la liste ci-
 |`\S`|Renvoie une correspondance où la chaîne NE contient PAS d'espace blanc|"\S" |
 |`\w`|Renvoie une correspondance où la chaîne contient des caractères de mot (caractères de a à Z, chiffres de 0 à 9 et la barre de 8 _)|"\w" | 
 |`\W`|Renvoie une correspondance où la chaîne NE contient PAS de caractères de mot|"\W" |
-|\Z`|Renvoie une correspondance si les caractères spécifiés sont à la fin de la chaîne|"pays\Z" |
+|`\Z`|Renvoie une correspondance si les caractères spécifiés sont à la fin de la chaîne|"pays\Z" |
 
 ---
 
