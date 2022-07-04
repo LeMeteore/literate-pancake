@@ -119,7 +119,7 @@ A set is a set of characters inside a pair of square brackets `[]` with a spec
 [Voir le tableau](https://www.notion.so/8eec1670291043aaa4d8627c01200156)
 | Set | Description|
 | :----------------------------------: | :----------------------------------: |
-[[mar]|Renvoie une correspondance dans laquelle l'un des caractères spécifiés (m, a, ou r) est présent.|
+[mar]|Renvoie une correspondance dans laquelle l'un des caractères spécifiés (m, a, ou r) est présent.|
 |[m-r]|Renvoie une correspondance pour tout caractère minuscule, par ordre alphabétique entre m et r|
 [^mar]|Renvoie une correspondance pour n'importe quel caractère SAUF m, a et r|
 |[0123]|Renvoie une correspondance où l'un des chiffres spécifiés (0, 1, 2 ou 3) est présent|
