@@ -92,12 +92,22 @@ Les métacaractères sont des caractères ayant une signification particulière�
 
 ---
 
-# Séquences spéciales
+# Les caratères spéciaux
 
-Une séquence spéciale est un `\` suivi de l'un des caractères de la liste ci-dessous et a une signification particulière :
+Un caractère spécial est un `\` suivi de l'un des caractères de la liste ci-dessous et a une signification particulière :
 
 [Voir le tableau](https://www.notion.so/d48308b39a1b47a49e726d5f859b413f)
-
+|Caractère|Description|Exemple|
+|\A|Renvoie une correspondance si les caractères spécifiés sont au début de la chaîne|"""\AThe"""
+|\b|"Renvoie une correspondance où les caractères spécifiés sont au début ou à la fin d'un mot (le ""r"" au début s'assure que la chaîne est traitée comme une ""chaîne brute"")"|"r""\bain""r""ain\b"""
+|\B|"Renvoie une correspondance où les caractères spécifiés sont présents, mais PAS au début (ou à la fin) d'un mot (le ""r"" au début s'assure que la chaîne est traitée comme une ""chaîne brute"")"|"r""\Bain""r""ain\B"""
+|\d|Renvoie une correspondance où la chaîne contient des chiffres (nombres de 0 à 9)|"""\d"""
+|\D|Renvoie une correspondance où la chaîne NE contient PAS de chiffres|"""\D"""
+|\s|Renvoie une correspondance où la chaîne contient un caractère d'espace blanc|"""\s"""
+|\S|Renvoie une correspondance où la chaîne NE contient PAS d'espace blanc|"""\S"""
+|\w|"Renvoie une correspondance où la chaîne contient des caractères de mot (caractères de a à Z, chiffres de 0 à 9 et la barre de 8 _)"|"""\w"""
+|\W|Renvoie une correspondance où la chaîne NE contient PAS de caractères de mot|"""\W"""
+|\Z|Renvoie une correspondance si les caractères spécifiés sont à la fin de la chaîne|"""pays\Z"""
 ---
 
 # Les sets
