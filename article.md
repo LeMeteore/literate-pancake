@@ -98,6 +98,7 @@ Un caractère spécial est un `\` suivi de l'un des caractères de la liste ci-
 
 [Voir le tableau](https://www.notion.so/d48308b39a1b47a49e726d5f859b413f)
 | Caractère | Description| Exemple |
+| :----------------------------------: | :----------------------------------: | :----------------------------------: |
 | \A | Renvoie une correspondance si les caractères spécifiés sont au début de la chaîne |"""\AThe""" |
 |\b|"Renvoie une correspondance où les caractères spécifiés sont au début ou à la fin d'un mot (le ""r"" au début s'assure que la chaîne est traitée comme une ""chaîne brute"")"|"r""\bain""r""ain\b""" |
 |\B|"Renvoie une correspondance où les caractères spécifiés sont présents, mais PAS au début (ou à la fin) d'un mot (le ""r"" au début s'assure que la chaîne est traitée comme une ""chaîne brute"")"|"r""\Bain""r""ain\B""" |
