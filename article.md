@@ -48,8 +48,7 @@ during the collect to detect aberration and take decision quickly. This is our q
 The taking care of patients is made by interrogation of patient, physical exam and the proposition of treament.
 When the patient arrived to hospital at emercency room, the practitioners will 
 
-<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg" width="700" height="600">
-![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/01.jpg?raw=true)
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg?raw=true "Patient taking care process")
 
 ## III.2. Materials
 We use Unified Modeling Language (UML) for describing and design the process of patient taking care by physician in inpatient room.
@@ -242,20 +241,16 @@ Main_Fen.mainloop()
 ```
 # IV. Results
 ### The user interface
-<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/02.jpg" width="500" height="400">
-![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/02.jpg?raw=true)
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/02.jpg?raw=true "Patient taking care process")
 
 ### While collecting data
-<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/03.jpg" width="500" height="400">
-![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/03.jpg?raw=true)
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/03.jpg?raw=true "Patient taking care process")
 
 ### Data store in Mysql database
-<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/04.jpg" width="700" height="600">
-![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/04.jpg?raw=true)
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/04.jpg?raw=true "Patient taking care process")
 
 ### Printing a report of temperature Vs heart rate
-<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg" width="700" height="600">
-![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/img/05.jpg?raw=true)
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
 
 # Conclusion
 This is a set of healthcare user interface. It can be improve for later use.
