@@ -178,11 +178,14 @@ def Save_to_sql():
     Age = Patient_Age.get()
     FC = Patient_FC.get()
     Id = Id_1.get()
-    cnx = mysql.connector.connect(user='MoeiLab', password='MoeiLab@1234', host='127.0.0.1', database='moeilab')
+    cnx = mysql.connector.connect(user='MoeiLab', password='MoeiLab@1234',
+            host='127.0.0.1', database='moeilab')
     cursor = cnx.cursor()
-    add_constant = ("INSERT INTO constant " "(Id_,Temperature_, Age_, FC_)" "VALUES (%(Id_)s,%(Temperature_)s, %(Age_)s, %(FC_)s)")
+    add_constant = ("INSERT INTO constant " "(Id_,Temperature_, Age_, FC_)"
+            "VALUES (%(Id_)s,%(Temperature_)s, %(Age_)s, %(FC_)s)")
 
-    Data_constant = {'Id_': Id,'Temperature_': Temperature, 'Age_': Age, 'FC_': FC, }
+    Data_constant = {'Id_': Id,'Temperature_': Temperature, 
+           'Age_': Age, 'FC_': FC, }
     cursor.execute(add_constant, Data_constant)
     # Make sure data is committed to the database
     cnx.commit()
@@ -201,11 +204,13 @@ Sauvergarde.pack(side=tkinter.TOP, fill = tkinter.BOTH, expand = True)
 
 
 def Afficher() :
-    cnx = mysql.connector.connect(user='MoeiLab', password='MoeiLab@1234', host='127.0.0.1', database='moeilab')
+    cnx = mysql.connector.connect(user='MoeiLab', password='MoeiLab@1234', 
+                 host='127.0.0.1', database='moeilab')
     cursor = cnx.cursor()
     cursor.execute("SELECT * FROM constant ")
     table_rows = cursor.fetchall()
-    df3 = pandas.DataFrame(table_rows, columns=['Id_', 'Temperature_','Age_','FC_'])
+    df3 = pandas.DataFrame(table_rows, columns=['Id_',
+            'Temperature_','Age_','FC_'])
 
     #df3 = pandas.DataFrame(data, columns=['1', '3'])
     #df3 = data['Temperature_C', 'FC_C']
@@ -227,7 +232,8 @@ def Afficher() :
 # cette fonction va permettre d'afficher la courbe de suivi
 def Print_report():
     Afficher()
-Buton_Print_report=tkinter.Button(Main_Fen,text="Print a Report",bg="green",fg="white",command=Print_report)
+Buton_Print_report=tkinter.Button(Main_Fen,text="Print a Report",
+               bg="green",fg="white",command=Print_report)
 Buton_Print_report.pack(side=tkinter.TOP, fill = tkinter.BOTH, expand = True)
 
 # Pour la fenetre principale
