@@ -42,7 +42,7 @@ during the collect to detect aberration and take decision quickly. This is our q
 ## III.1. Methods
 The taking care of patients is made by interrogation of patient, physical exam and the proposition of treament.
 When the patient arrived to hospital at emercency room, the practitioners will 
-### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg?raw=true "Patient taking care process")
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg?raw=true "Patient taking care process" | width=100)
 
 ## III.2. Materials
 We use Unified Modeling Language (UML) for describing and design the process of patient taking care by physician in inpatient room.
@@ -52,7 +52,7 @@ Mysql will be used to store data which are collected by the system.
 the user "MoeiLab" and passeword "MoeiLab1234"
 ### 3 launch the Xamps control pannel and connect to the phpmyadmin
 ### 4 use the sql code below to creat data or create it manually
-'''
+```
 -- phpMyAdmin SQL Dump
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
@@ -66,15 +66,9 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
---
--- Base de données : `moeilab`
---
+ Base de données : `moeilab`
 
--- --------------------------------------------------------
-
---
--- Structure de la table `constant`
---
+Structure de la table `constant`
 
 CREATE TABLE `constant` (
   `Id_` int(5) NOT NULL,
@@ -105,7 +99,11 @@ ALTER TABLE `constant`
   ADD UNIQUE KEY `Id_` (`Id_`);
 COMMIT;
 
-'''
+```
+### Install the requirements
+* mysql.connector using pip
+* install pandas using pip
+* install matplotlib using pip
 
 ### Section du code python
 ```python
