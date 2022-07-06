@@ -42,8 +42,8 @@ during the collect to detect aberration and take decision quickly. This is our q
 ## III.1. Methods
 The taking care of patients is made by interrogation of patient, physical exam and the proposition of treament.
 When the patient arrived to hospital at emercency room, the practitioners will 
-### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg?raw=true "Patient taking care process" 600x500)
-### <img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg" width="600" heigth="600" "Patient taking care process"/>
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/01.jpg?raw=true "Patient taking care process" |width=100px )
+
 ## III.2. Materials
 We use Unified Modeling Language (UML) for describing and design the process of patient taking care by physician in inpatient room.
 Mysql will be used to store data which are collected by the system.
