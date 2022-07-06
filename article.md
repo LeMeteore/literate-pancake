@@ -228,12 +228,16 @@ Main_Fen.mainloop()
 # IV. Results
 ### The user interface
 <img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/02.jpg" width="500" height="400">
+
 ### While collecting data
 <img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/03.jpg" width="500" height="400">
+
 ### Data store in Mysql database
 <img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/04.jpg" width="700" height="600">
+
 ### Printing a report of temperature Vs heart rate
 <img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg" width="700" height="600">
+
 # Conclusion
 This is a set of healthcare user interface. It can be improve for later use.
 
