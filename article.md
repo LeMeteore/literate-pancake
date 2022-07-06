@@ -244,6 +244,7 @@ Main_Fen.mainloop()
 ### The user interface
 ### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/02.jpg?raw=true "Patient taking care process")
 
+
 ### While collecting data
 ### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/03.jpg?raw=true "Patient taking care process")
 
@@ -256,6 +257,13 @@ Main_Fen.mainloop()
 ### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
 
 
+
+### Printing a report of temperature Vs heart rate
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
+
+
+### Printing a report of temperature Vs heart rate
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
 
 
 # Conclusion
