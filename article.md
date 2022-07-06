@@ -33,12 +33,17 @@ during the collect to detect aberration and take decision quickly. This is our q
 
 # II. Aims
 ## II.1. Main aim
+
 #### Implement a user interface which will help physician to collect and visualize patient data by usin python GUI Tkinter
 
 ## II.2. Specifics aims
+
 #### II.2.1. Improve the the taking care of patient by allowing automatique analysing of patient data
+
 #### II.2.2. Reduce the rate of aberration during patient data collection
+
 # III. Methods and materials
+
 ## III.1. Methods
 The taking care of patients is made by interrogation of patient, physical exam and the proposition of treament.
 When the patient arrived to hospital at emercency room, the practitioners will 
@@ -48,10 +53,14 @@ When the patient arrived to hospital at emercency room, the practitioners will
 ## III.2. Materials
 We use Unified Modeling Language (UML) for describing and design the process of patient taking care by physician in inpatient room.
 Mysql will be used to store data which are collected by the system.
+
 ### 1 Download XAMP and install it at https://www.apachefriends.org/fr/index.html
+
 ### 2 Create
 the user "MoeiLab" and passeword "MoeiLab1234"
+
 ### 3 launch the Xamps control pannel and connect to the phpmyadmin
+
 ### 4 use the sql code below to creat data or create it manually
 ```
 -- phpMyAdmin SQL Dump
@@ -92,7 +101,6 @@ INSERT INTO `constant` (`Id_`, `Temperature_`, `Age_`, `FC_`) VALUES
 --
 -- Index pour les tables déchargées
 --
-
 --
 -- Index pour la table `constant`
 --
