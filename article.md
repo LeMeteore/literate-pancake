@@ -226,6 +226,10 @@ Main_Fen.mainloop()
 
 ```
 # IV. Results
+<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/02.jpg" width="500" height="400">
+<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/03.jpg" width="500" height="400">
+<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/04.jpg" width="700" height="600">
+<img src="https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg" width="700" height="600">
 # Conclusion
 
 # Bibliography
