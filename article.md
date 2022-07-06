@@ -248,6 +248,9 @@ Main_Fen.mainloop()
 ### While collecting data
 ### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/03.jpg?raw=true "Patient taking care process")
 
+### Printing a report of temperature Vs heart rate
+### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
+
 ### Data store in Mysql database
 ### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/04.jpg?raw=true "Patient taking care process")
 
@@ -256,14 +259,6 @@ Main_Fen.mainloop()
 ### Printing a report of temperature Vs heart rate
 ### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
 
-
-
-### Printing a report of temperature Vs heart rate
-### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
-
-
-### Printing a report of temperature Vs heart rate
-### ![alt text](https://github.com/Moeisoft-Business/literate-pancake_Ousseni_OUEDRAOGO/blob/master/img/05.jpg?raw=true "Patient taking care process")
 
 
 # Conclusion
