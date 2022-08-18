@@ -1,6 +1,6 @@
 ---
 title: |
-  "Introduction to Python modules."
+  "Introduction Python Type Hinting."
 date: May, 2022
 lang: en-EN
 urlcolor: blue
@@ -15,10 +15,10 @@ header-includes: |
     \lhead{Patrick Nsukami}
     \rfoot{Page \thepage}
     \hypersetup{pdftex,
-            pdfauthor={Patrick Nsukami},
-            pdftitle={Introduction to Python programming},
-            pdfsubject={Introduction to Python programming},
-            pdfkeywords={Python, Programming},
+            pdfauthor={Lucis ASSOGBA},{Viwossin Dégboé}
+            pdftitle={Introduction Python Type Hinting},
+            pdfsubject={Introduction Python Type Hinting},
+            pdfkeywords={Python, Programming, Type Hinting},
             pdfproducer={Emacs, Pandoc, Latex, Markdown},
             pdfcreator={Emacs, Pandoc, Latex, Markdown}}
     
