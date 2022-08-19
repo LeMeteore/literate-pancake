@@ -35,10 +35,27 @@ Python 3.5 introduced the "type hinting" (PEP484: Type Hints). In this article, 
 
 How to type in python?
 
-The Typage is done through annotations. They allow you to associate a given type (List, bool, etc) 
 Python has a set of primitive types that are the most commonly used and reoccurring. These include bool, int, str, and float. They can be used to type arguments as well as return values from functions. In the example 1 below, the circle_surface function takes in a radius argument and calculates the surface of that circle. The argument is of type float (indicated after : following the name of the argument) and the response is also of type float (the return type is indicated after ->).
 
-It is also possible to create composite data types such as lists of integers (integer) or in this example2 lists of floating-point numbers (floats).
+It is possible to create composite data types such as lists of integers (integer) or in this example 2 lists of floating-point numbers (floats).
+The type can also be used on all classes defined in a program including those from external libraries.
+
+how to concretely use type hinting to debug code?
+
+MyPy, a static type checker, will help you identify inconsistencies in your code by verifying the annotations of type.
+
+Typeguard is a library that allows you to run your program in a testing server or locally, thus finding inconsistencies in typing by using an IDE or script. This allows you to test your code with real-world data.
+
+There are three different ways to test types with Typeguard:
+
+-check_argument_types() and check_return_type() : These functions must be added to functions with an assert statement.
+
+-the decorator @typechecked
+
+-install_import_hook() : Adds the decorator @typechecked to any typed function.
+
+
+CONCLUSION
 
 
 
@@ -48,17 +65,21 @@ It is also possible to create composite data types such as lists of integers (in
 foo bar baz
 
 ```python
-# Exemple 1
+# Example 1
 def circle_surface(radius: float) -> float:
     return 3.141516 * math.sqrt(radius) 
 
-# Exemple 2
+# Example 2
 from typing import List
 
 Vector = List[float]
 
 def scale(scalar: float, vector: Vector) -> Vector:
     return [scalar * num for num in vector]
+
+
+
+
 
 def bar(x):
     print(x)
