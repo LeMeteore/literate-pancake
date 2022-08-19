@@ -23,7 +23,7 @@ header-includes: |
             pdfcreator={Emacs, Pandoc, Latex, Markdown}}
     
 ---
-INTRODUCTION
+#INTRODUCTION
 
 Python is a programming language that has been popular for some time now. Its excellent design makes it well-suited for data analysis and machine learning, and it also supports many other applications.
 Python's syntax is intuitive and easy to read, which makes it pleasant to work with.
@@ -33,14 +33,14 @@ The simplicity of Python can, paradoxically, become a problem. Applications are 
 Python 3.5 introduced the "type hinting" (PEP484: Type Hints). In this article, we'll explain how type hinting works in Python, what strategies you can adopt to use it in your codebase and how to verify types while your program is running.
 
 
-How to type in python?
+#How to type in python?
 
 Python has a set of primitive types that are the most commonly used and reoccurring. These include bool, int, str, and float. They can be used to type arguments as well as return values from functions. In the example 1 below, the circle_surface function takes in a radius argument and calculates the surface of that circle. The argument is of type float (indicated after : following the name of the argument) and the response is also of type float (the return type is indicated after ->).
 
 It is possible to create composite data types such as lists of integers (integer) or in this example 2 lists of floating-point numbers (floats).
 The type can also be used on all classes defined in a program including those from external libraries.
 
-how to concretely use type hinting to debug code?
+#How to concretely use type hinting to debug code?
 
 MyPy, a static type checker, will help you identify inconsistencies in your code by verifying the annotations of type.
 
@@ -55,14 +55,11 @@ There are three different ways to test types with Typeguard:
 -install_import_hook() : Adds the decorator @typechecked to any typed function.
 
 
-CONCLUSION
+#CONCLUSION
 
 
 
 
-# Foo:
-
-foo bar baz
 
 ```python
 # Example 1
@@ -77,13 +74,4 @@ Vector = List[float]
 def scale(scalar: float, vector: Vector) -> Vector:
     return [scalar * num for num in vector]
 
-
-
-
-
-def bar(x):
-    print(x)
-
-def foo():
-    return 42
 ```
