@@ -29,16 +29,26 @@ header-includes: |
 #| label: fig-polar
 #| fig-cap: "a line plot"
 
+# import necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
 
+# create some variables
 r = np.arange(0, 2, 0.01)
 theta = 2 * np.pi * r
+
+# create the plot object
 fix, ax = plt.subplots(
      subplot_kw = {'projection': "polar"}
 )
+
+# plot
 ax.plot(theta, r)
+
+# setup the ticks
 ax.set_rticks([0.5, 1, 1.5, 2])
+
+# make sure to sho the plot grid
 ax.grid(True)
 plt.show()
 ```
