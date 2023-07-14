@@ -30,8 +30,8 @@ jobs:
 
       - run: mkdir -p output
 
-      - name: Run pandoc
-        run: pandoc -V papersize:a4 --highlight-style breezeDark --pdf-engine xelatex -o article.pdf article.md
+      # - name: Run pandoc
+      #   run: pandoc -V papersize:a4 --highlight-style breezeDark --pdf-engine xelatex -o article.pdf article.md
 
       - name: Run Quarto
         run: quarto render article.qmd --to pdf

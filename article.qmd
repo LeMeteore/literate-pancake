@@ -29,7 +29,7 @@ header-includes: |
 #| label: fig-polar
 #| fig-cap: "a line plot"
 
-# import necessary libraries
+# import necessary libs
 import numpy as np
 import matplotlib.pyplot as plt
 
